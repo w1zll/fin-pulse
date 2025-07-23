@@ -1,0 +1,23 @@
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   max-width: 400px;
+   margin: 0 auto;
+}
+.row {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   align-items: start;
+   input {
+      align-self: stretch;
+      padding: 5px;
+      font-size: 18px;
+   }
+}
+.button {
+}
+.error {
+   color: red;
+}

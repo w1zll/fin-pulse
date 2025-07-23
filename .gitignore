@@ -1,0 +1,52 @@
+# Общие игнорируемые файлы и папки
+node_modules/
+.env
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.DS_Store
+*.local
+*.swp
+
+# Системные и IDE файлы
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Базовые для TypeScript
+*.tsbuildinfo
+
+# Логи и отчёты
+coverage/
+*.tgz
+package-lock.json
+
+# Фронтенд (React)
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+client/.env.local
+client/coverage/
+client/public/env.js
+
+# Бэкенд (Node.js + Express)
+server/node_modules/
+server/dist/
+server/.env
+server/.env.local
+server/coverage/
+server/logs/
+
+# pm2 и прочее
+pids/
+*.pid
+*.seed
+*.pid.lock

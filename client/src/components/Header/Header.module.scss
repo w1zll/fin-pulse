@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 16px 32px;
+   background-color: $light-gray;
+   border-bottom: 1px solid #ddd;
+}
+.logo {
+   font-size: 24px;
+   font-weight: 600;
+   color: $primary-color;
+}
+nav {
+   display: flex;
+   gap: 20px;
+   a {
+      text-decoration: none;
+      font-weight: 500;
+      color: $dark;
+      &:hover {
+         color: $primary-color;
+      }
+      &.active {
+         border-bottom: 2px solid $primary-color;
+         padding-bottom: 2px;
+      }
+   }
+}
